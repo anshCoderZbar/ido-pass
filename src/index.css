@@ -29,6 +29,28 @@ body {
 .icon_color {
   color: #8b3dda !important;
 }
+.swiper-button-prev,
+.swiper-button-next {
+  background: rgb(32, 27, 52);
+  background: linear-gradient(#201b34, #0f0d19);
+  padding: 10px;
+  border-radius: 50%;
+  height: 35px !important;
+  width: 35px !important;
+  color: #fff !important;
+  font-size: 15px !important;
+}
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-size: 15px !important;
+}
+.swiper-pagination-bullet {
+  height: 10px !important;
+  width: 10px !important;
+}
+.swiper-pagination-bullet-active {
+  background-color: #8b3dda !important;
+}
 @media screen and (max-width: 1200px) {
   .container {
     max-width: 1140px;

@@ -240,6 +240,24 @@
   text-decoration: none;
   filter: brightness(2);
 }
+.modal-header {
+  border: none !important;
+}
+.btn-close {
+  color: #fff !important;
+  filter: invert(1);
+  opacity: 1;
+}
+.modal-content {
+  background: rgb(32, 27, 52);
+  background: linear-gradient(#201b34, #0f0d19);
+}
+.modal-body p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 7px;
+}
 /* footer */
 @media screen and (max-width: 990px) {
   /* Header */

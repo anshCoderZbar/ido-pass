@@ -1,0 +1,69 @@
+.homepage .hero_wrapper {
+  position: relative;
+}
+
+.hero_image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero_content {
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 100%;
+}
+.inner h1 {
+  font-size: 60px;
+  line-height: 72px;
+  margin: 0 0 16px;
+  color: #fff;
+  padding: 0;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+.inner p {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 400;
+  margin: 0;
+}
+.homepage .swiper-pagination {
+  margin-bottom: 80px !important;
+}
+@media screen and (max-width: 1199px) {
+  .inner h1 {
+    font-size: 50px;
+    line-height: 68px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .inner h1 {
+    font-size: 45px;
+    line-height: 68px;
+  }
+  .inner p {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .inner h1 {
+    font-size: 35px;
+    line-height: 44px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .inner h1 {
+    font-size: 25px;
+    line-height: 38px;
+  }
+  .inner p {
+    font-size: 16px;
+  }
+}
